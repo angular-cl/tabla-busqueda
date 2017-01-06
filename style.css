@@ -1,0 +1,145 @@
+/*
+Theme Name: Ejemplo 01
+Theme URI: www.marlonfalcon.cl
+Description: Sitio básico.
+Version:1.0
+Author : auto
+Author URL: www.marlonfalcon.cl
+*/
+
+/*--------Estilos generales WP-------------------*/
+
+.center {text-align: center;}
+img.center, img[align="center"] {display: block; margin-left:auto;margin-right:auto;}
+.alignleft {float:left;}
+img.center, img[align="left"] {float:left;margin 2px 10px 5px 0px;}
+.alignright {float:right;}
+img.alignright, img[align="right"]{float:right;margin: px 0px 5px 10px;}
+.clear {clear:both;}
+hr.clear {clear:both;visibility:hidden;margin: 0px;padding: 0px; heigth:0px;}
+
+
+/*--------Estilos generales-------------------*/
+
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	font-size: 12pt;
+	font-family: "HelveticaRegular", Arial, Helvetica, sans-serif;
+	background-color: #f1f1f1;
+
+}
+
+
+/*--------Helvetica-------------------*/
+
+@font-face {
+            font-family: 'HelveticaRegular';
+            src: url('assets/fonts/helvetica___-webfont_latin.eot');
+            src: url('assets/fonts/helvetica___-webfont_latin.eot?#iefix') format('embedded-opentype'),
+                 url('assets/fonts/helvetica___-webfont_latin.ttf') format('truetype'),
+                 url('assets/fonts/helvetica___-webfont_latin.svg#HelveticaRegular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'HelveticaBold';
+            src: url('assets/fonts/helvetica_bold___-webfont_latin.eot');
+            src: url('assets/fonts/helvetica_bold___-webfont_latin.eot?#iefix') format('embedded-opentype'),
+                 url('assets/fonts/helvetica_bold___-webfont_latin.ttf') format('truetype'),
+                 url('assets/fonts/helvetica_bold___-webfont_latin.svg#HelveticaRegular') format('svg');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+
+
+header, #main, footer{
+ 	width:85%;             
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+
+
+ /*  ------------------   BacktoTop       --------------------- */
+.element.style {
+    display: block;
+}
+
+
+#toTop {
+    background-color: #ec7600;
+    padding: 7px;
+    bottom: 10px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    height: 40px;
+    position: fixed;
+    right: 10px;
+    text-align: center;
+    width: 40px;
+
+ border: 2px none #000000;
+-moz-border-radius: 2px;/*Firefox*/
+-webkit-border-radius: 2px;/*Safari, Chrome*/
+border-radius: 2px;
+
+}
+ /*  ------------------   BacktoTop       ------------------------ */
+
+
+
+ /*  ------------------   Redes Sociales      --------------------- */
+
+#social-sidebar {
+    left: 0;
+    margin-top: -75px;
+    position: fixed;
+    top: 50%;
+}
+
+.entypo-twitter {
+    background-color: #6cdfea;
+}
+
+
+.entypo-facebook{
+    background-color: #234999;
+}
+
+.entypo-youtube{
+    background-color: #ff0000;
+}
+
+#social-sidebar ul li a {
+    color: #ffffff;
+    display: block;
+    font-size: 28px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+#social-sidebar ul li a:hover{
+   width: 60px;
+   -webkit-transition: all 0.5s ease;/* Safari 3.2+, Chrome */
+   -moz-transition: all 0.5s ease;/* Firefox 4-15 */
+   -o-transition: all 0.5s ease;/* Opera 10.5-12.00 */
+   transition: all 0.5s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+  /*  ------------------   Redes Sociales      --------------------- */
+
+
+
+
